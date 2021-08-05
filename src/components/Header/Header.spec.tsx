@@ -26,7 +26,7 @@ describe('Test Header', ()=> {
       <Header />
     )
     expect(screen.getByText('Home')).toBeInTheDocument()
-    expect(screen.getByText('Posts')).toBeInTheDocument()
+    expect(screen.getByText('Post')).toBeInTheDocument()
 
   })
 })

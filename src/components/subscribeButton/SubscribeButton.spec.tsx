@@ -58,10 +58,10 @@ describe('Test SubscribeButton', () => {
 
     render(<SubscribeButton />)
 
-    const subscribeButton = screen.getByText('Subscribe now')
+    const subscribeButton = screen.getByText('Subscribe Now')
 
     fireEvent.click(subscribeButton)
 
-    expect(pushMock).toHaveBeenCalledWith('/posts')
+    expect(pushMock).toHaveBeenCalledWith('/post')
   })
 })
